@@ -1,3 +1,9 @@
+/****************************************************
+Author: ciaoSora
+File: ParseTree.h
+Desc: The parse tree data structure
+****************************************************/
+
 #pragma once
 #ifndef PARSETREE_H_
 #define PARSETREE_H_

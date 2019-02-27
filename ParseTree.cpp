@@ -1,3 +1,9 @@
+/****************************************************
+Author: ciaoSora
+File: ParseTree.cpp
+Desc: The parse tree data structure
+****************************************************/
+
 #include "ParseTree.h"
 #include <iostream>
 
