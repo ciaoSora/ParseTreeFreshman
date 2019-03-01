@@ -8,6 +8,10 @@ Desc: Basic shapes in SVG
 #ifndef SHAPES_H_
 #define SHAPES_H_
 #include <string>
+#ifdef _DEBUG
+#include <crtdbg.h>
+#define new   new(_NORMAL_BLOCK, __FILE__, __LINE__)
+#endif // _DEBUG
 
 class Shape {
 protected:
