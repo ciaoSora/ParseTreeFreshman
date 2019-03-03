@@ -28,6 +28,9 @@ int ParseTree::dfs1(const std::string & to_parse, int start, int depth, Node * p
 	int i = start + 1;
 	Node * tem = new Node();
 	tem->depth = depth;
+	while (to_parse[i] == ' ') {
+		++i;
+	}
 	while (to_parse[i] != '(' && to_parse[i] != ')') {
 		tem->tag += to_parse[i];
 		++i;

@@ -19,6 +19,8 @@ int main() {
 	pt->SaveAsSVG("parse_tree.html");
 
 	delete pt;
+	#ifdef _DEBUG
 	_CrtDumpMemoryLeaks();
+	#endif // _DEBUG
 	return 0;
 }
